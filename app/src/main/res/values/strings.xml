@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusFlow</string>
+
+    <!-- Tabs -->
+    <string name="tab_timer">Timer</string>
+    <string name="tab_stats">Stats</string>
+    <string name="tab_awards">Awards</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Phases -->
+    <string name="phase_focus">Focus</string>
+    <string name="phase_short">Short break</string>
+    <string name="phase_long">Long break</string>
+    <string name="chip_focus">Focus</string>
+    <string name="chip_short">Short</string>
+    <string name="chip_long">Long</string>
+
+    <!-- Timer screen -->
+    <string name="session_of">Session %1$d of %2$d</string>
+    <string name="break_hint">Stand up, stretch, drink some water.</string>
+    <string name="cd_start">Start</string>
+    <string name="cd_pause">Pause</string>
+    <string name="cd_reset">Reset</string>
+    <string name="cd_skip">Skip</string>
+    <string name="sound_title">Focus sound</string>
+    <string name="sound_off">Off</string>
+    <string name="sound_rain">Rain</string>
+    <string name="sound_wind">Wind</string>
+    <string name="sound_brown">Deep focus</string>
+    <string name="sound_white">White noise</string>
+    <string name="today_title">Today</string>
+    <string name="sessions_progress">Sessions: %1$d / %2$d</string>
+    <string name="exact_alarm_msg">Allow “Alarms &amp; reminders” so the timer can alert you right on time, even when the screen is off.</string>
+    <string name="exact_alarm_btn">Open settings</string>
+
+    <!-- Notifications -->
+    <string name="ch_running">Running timer</string>
+    <string name="ch_done">Session finished</string>
+    <string name="ch_nudge">Focus reminders</string>
+    <string name="ch_sound">Focus sound</string>
+    <string name="notif_running">Time remaining</string>
+    <string name="done_focus_title">Focus session complete 🎉</string>
+    <string name="done_break_title">Break is over</string>
+    <string name="done_text">Next up: %1$s</string>
+    <string name="nudge_title">Come back to focus</string>
+    <string name="nudge_text">%1$s left in this session.</string>
+    <string name="notif_sound_title">Focus sound is playing</string>
+    <string name="stop">Stop</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Your focus</string>
+    <string name="stat_week">Last 7 days</string>
+    <string name="stat_total">All time</string>
+    <string name="stat_streak">Day streak</string>
+    <string name="stats_chart_title">Focus minutes per day</string>
+    <string name="stats_avg_distractions">Average interruptions per session: %1$.1f</string>
+    <string name="stats_empty">Finish your first focus session and your stats will appear here.</string>
+    <string name="local_only">Your data stays on this device only.</string>
+    <string name="fmt_min">%1$d min</string>
+    <string name="fmt_hm">%1$dh %2$dm</string>
+
+    <!-- Achievements -->
+    <string name="awards_title">Achievements</string>
+    <string name="awards_count">%1$d of %2$d unlocked</string>
+    <string name="ach_first">First step</string>
+    <string name="ach_first_d">Finish your first focus session.</string>
+    <string name="ach_ten">Getting rolling</string>
+    <string name="ach_ten_d">Finish 10 focus sessions.</string>
+    <string name="ach_warm">Warm-up</string>
+    <string name="ach_warm_d">Finish 4 sessions in one day.</string>
+    <string name="ach_marathon">Marathon day</string>
+    <string name="ach_marathon_d">Finish 8 sessions in one day.</string>
+    <string name="ach_streak3">Three in a row</string>
+    <string name="ach_streak3_d">Focus on 3 days in a row.</string>
+    <string name="ach_streak7">One full week</string>
+    <string name="ach_streak7_d">Focus on 7 days in a row.</string>
+    <string name="ach_h10">Ten hours</string>
+    <string name="ach_h10_d">Reach 10 hours of total focus time.</string>
+    <string name="ach_h50">Fifty hours</string>
+    <string name="ach_h50_d">Reach 50 hours of total focus time.</string>
+    <string name="ach_calm">Laser focus</string>
+    <string name="ach_calm_d">Finish 5 sessions in a row without leaving the app.</string>
+    <string name="ach_goal">Goal reached</string>
+    <string name="ach_goal_d">Reach your daily goal once.</string>
+    <string name="ach_early">Early bird</string>
+    <string name="ach_early_d">Start a session before 8:00.</string>
+    <string name="ach_night">Night owl</string>
+    <string name="ach_night_d">Start a session after 22:00.</string>
+
+    <!-- Settings -->
+    <string name="set_durations">Durations</string>
+    <string name="set_focus">Focus: %1$d min</string>
+    <string name="set_short">Short break: %1$d min</string>
+    <string name="set_long">Long break: %1$d min</string>
+    <string name="set_cycle">Sessions before a long break: %1$d</string>
+    <string name="set_goal">Daily goal (sessions): %1$d</string>
+    <string name="set_behavior">Behavior</string>
+    <string name="set_autostart">Start the next phase automatically</string>
+    <string name="set_keep_on">Keep the screen on while the timer runs</string>
+    <string name="set_nudges">Gentle reminder if I leave the app during focus</string>
+    <string name="set_look">Appearance</string>
+    <string name="set_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="set_dynamic">Use system colors (Material You)</string>
+    <string name="set_privacy">Privacy</string>
+    <string name="privacy_text">FocusFlow works completely offline. Your sessions and settings stay on this device only: no account, no ads, no tracking.</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="delete_data">Delete all my data</string>
+    <string name="delete_title">Delete all data?</string>
+    <string name="delete_body">Your session history and achievements will be removed from this device. This cannot be undone.</string>
+    <string name="delete_confirm">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="version_fmt">Version %1$s</string>
+</resources>

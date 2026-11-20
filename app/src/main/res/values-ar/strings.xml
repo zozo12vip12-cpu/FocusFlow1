@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فوكس فلو</string>
+
+    <!-- Tabs -->
+    <string name="tab_timer">المؤقّت</string>
+    <string name="tab_stats">الإحصائيات</string>
+    <string name="tab_awards">الإنجازات</string>
+    <string name="tab_settings">الإعدادات</string>
+
+    <!-- Phases -->
+    <string name="phase_focus">تركيز</string>
+    <string name="phase_short">استراحة قصيرة</string>
+    <string name="phase_long">استراحة طويلة</string>
+    <string name="chip_focus">تركيز</string>
+    <string name="chip_short">قصيرة</string>
+    <string name="chip_long">طويلة</string>
+
+    <!-- Timer screen -->
+    <string name="session_of">الجلسة %1$d من %2$d</string>
+    <string name="break_hint">قف وتمدّد واشرب بعض الماء.</string>
+    <string name="cd_start">ابدأ</string>
+    <string name="cd_pause">إيقاف مؤقت</string>
+    <string name="cd_reset">إعادة الضبط</string>
+    <string name="cd_skip">تخطَّ</string>
+    <string name="sound_title">صوت التركيز</string>
+    <string name="sound_off">إيقاف</string>
+    <string name="sound_rain">مطر</string>
+    <string name="sound_wind">رياح</string>
+    <string name="sound_brown">تركيز عميق</string>
+    <string name="sound_white">ضوضاء بيضاء</string>
+    <string name="today_title">اليوم</string>
+    <string name="sessions_progress">الجلسات: %1$d / %2$d</string>
+    <string name="exact_alarm_msg">اسمح بـ«المنبّهات والتذكيرات» ليُنبّهك المؤقّت في وقته تمامًا حتى عند إطفاء الشاشة.</string>
+    <string name="exact_alarm_btn">فتح الإعدادات</string>
+
+    <!-- Notifications -->
+    <string name="ch_running">المؤقّت الجاري</string>
+    <string name="ch_done">انتهاء الجلسة</string>
+    <string name="ch_nudge">تذكيرات التركيز</string>
+    <string name="ch_sound">صوت التركيز</string>
+    <string name="notif_running">الوقت المتبقي</string>
+    <string name="done_focus_title">انتهت جلسة التركيز 🎉</string>
+    <string name="done_break_title">انتهت الاستراحة</string>
+    <string name="done_text">التالي: %1$s</string>
+    <string name="nudge_title">عُد إلى التركيز</string>
+    <string name="nudge_text">متبقٍّ %1$s من الجلسة.</string>
+    <string name="notif_sound_title">صوت التركيز يعمل</string>
+    <string name="stop">إيقاف</string>
+
+    <!-- Stats -->
+    <string name="stats_title">تركيزك</string>
+    <string name="stat_week">آخر 7 أيام</string>
+    <string name="stat_total">الإجمالي</string>
+    <string name="stat_streak">أيام متتالية</string>
+    <string name="stats_chart_title">دقائق التركيز في كل يوم</string>
+    <string name="stats_avg_distractions">متوسط مرات المقاطعة في الجلسة: %1$.1f</string>
+    <string name="stats_empty">أنهِ أول جلسة تركيز لتظهر إحصائياتك هنا.</string>
+    <string name="local_only">بياناتك تبقى على هذا الجهاز فقط.</string>
+    <string name="fmt_min">%1$d د</string>
+    <string name="fmt_hm">%1$d س %2$d د</string>
+
+    <!-- Achievements -->
+    <string name="awards_title">الإنجازات</string>
+    <string name="awards_count">تم فتح %1$d من %2$d</string>
+    <string name="ach_first">الخطوة الأولى</string>
+    <string name="ach_first_d">أنهِ أول جلسة تركيز.</string>
+    <string name="ach_ten">بداية قوية</string>
+    <string name="ach_ten_d">أنهِ 10 جلسات تركيز.</string>
+    <string name="ach_warm">الإحماء</string>
+    <string name="ach_warm_d">أنهِ 4 جلسات في يوم واحد.</string>
+    <string name="ach_marathon">يوم ماراثوني</string>
+    <string name="ach_marathon_d">أنهِ 8 جلسات في يوم واحد.</string>
+    <string name="ach_streak3">ثلاثة أيام متتالية</string>
+    <string name="ach_streak3_d">تركّز 3 أيام متتالية.</string>
+    <string name="ach_streak7">أسبوع كامل</string>
+    <string name="ach_streak7_d">تركّز 7 أيام متتالية.</string>
+    <string name="ach_h10">عشر ساعات</string>
+    <string name="ach_h10_d">اجمع 10 ساعات من وقت التركيز.</string>
+    <string name="ach_h50">خمسون ساعة</string>
+    <string name="ach_h50_d">اجمع 50 ساعة من وقت التركيز.</string>
+    <string name="ach_calm">تركيز بلا تشتّت</string>
+    <string name="ach_calm_d">أنهِ 5 جلسات متتالية دون مغادرة التطبيق.</string>
+    <string name="ach_goal">تحقيق الهدف</string>
+    <string name="ach_goal_d">حقّق هدفك اليومي مرة واحدة.</string>
+    <string name="ach_early">الطائر المبكر</string>
+    <string name="ach_early_d">ابدأ جلسة قبل الساعة 8 صباحًا.</string>
+    <string name="ach_night">بومة الليل</string>
+    <string name="ach_night_d">ابدأ جلسة بعد الساعة 10 مساءً.</string>
+
+    <!-- Settings -->
+    <string name="set_durations">المدد</string>
+    <string name="set_focus">التركيز: %1$d د</string>
+    <string name="set_short">الاستراحة القصيرة: %1$d د</string>
+    <string name="set_long">الاستراحة الطويلة: %1$d د</string>
+    <string name="set_cycle">عدد الجلسات قبل الاستراحة الطويلة: %1$d</string>
+    <string name="set_goal">الهدف اليومي (جلسات): %1$d</string>
+    <string name="set_behavior">السلوك</string>
+    <string name="set_autostart">بدء المرحلة التالية تلقائيًا</string>
+    <string name="set_keep_on">إبقاء الشاشة مضاءة أثناء عمل المؤقّت</string>
+    <string name="set_nudges">تذكير لطيف إذا غادرت التطبيق أثناء التركيز</string>
+    <string name="set_look">المظهر</string>
+    <string name="set_theme">السمة</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="set_dynamic">استخدام ألوان النظام (Material You)</string>
+    <string name="set_privacy">الخصوصية</string>
+    <string name="privacy_text">يعمل فوكس فلو بالكامل دون إنترنت. تبقى جلساتك وإعداداتك على هذا الجهاز فقط، بلا حساب ولا إعلانات ولا تتبّع.</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="delete_data">حذف كل بياناتي</string>
+    <string name="delete_title">حذف كل البيانات؟</string>
+    <string name="delete_body">سيُحذف سجل جلساتك وإنجازاتك من هذا الجهاز ولا يمكن التراجع عن ذلك.</string>
+    <string name="delete_confirm">حذف</string>
+    <string name="cancel">إلغاء</string>
+    <string name="version_fmt">الإصدار %1$s</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: replace with the public URL of your privacy policy (see docs/privacy-policy.html). -->
+    <string name="privacy_policy_url" translatable="false">https://example.com/focusflow/privacy-policy.html</string>
+</resources>
