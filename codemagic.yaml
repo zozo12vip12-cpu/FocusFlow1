@@ -1,0 +1,30 @@
+# Codemagic CI: builds a debug APK of FocusFlow (no signing needed) and exports it as an artifact.
+workflows:
+  focusflow-debug-apk:
+    name: FocusFlow - Debug APK
+    instance_type: linux
+    max_build_duration: 30
+    environment:
+      java: 17
+    scripts:
+      - name: Set Android SDK location
+        script: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/local.properties"
+      - name: Generate Gradle wrapper (only if gradle-wrapper.jar is missing)
+        script: |
+          if [ ! -f gradle/wrapper/gradle-wrapper.jar ]; then
+            # Generated in an empty temp folder so Codemagic's own Gradle version
+            # never has to read this project's build files.
+            TMP_DIR="$(mktemp -d)"
+            (cd "$TMP_DIR" && gradle wrapper --gradle-version 8.13 --distribution-type bin)
+            mkdir -p gradle/wrapper
+            cp "$TMP_DIR/gradle/wrapper/gradle-wrapper.jar" gradle/wrapper/gradle-wrapper.jar
+            cp "$TMP_DIR/gradlew" gradlew
+            cp "$TMP_DIR/gradlew.bat" gradlew.bat
+          fi
+          chmod +x ./gradlew
+      - name: Build debug APK
+        script: |
+          ./gradlew --no-daemon --stacktrace :app:assembleDebug
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk
